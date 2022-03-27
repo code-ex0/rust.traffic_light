@@ -37,7 +37,7 @@ struct Fsm {
 impl Fsm {
     pub fn new() -> Fsm {
         Fsm {
-            state: State::GREEN,
+            state: State::RED,
         }
     }
 
